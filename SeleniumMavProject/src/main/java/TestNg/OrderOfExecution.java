@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 public class OrderOfExecution 
 {
 	//1st push
+	//1st pull
 	@Test(priority = 1)
 	public void createcontact()
 	{
